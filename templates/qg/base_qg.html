@@ -1,0 +1,22 @@
+{%load static%}
+
+<html lang="en">
+    <head>
+        {%include 'qg/nav_css.html' %}
+    </head>
+
+    <body>
+        <div class="container">
+         {% block body %}
+
+            {%include 'qg/navbar_qg.html' %}
+
+            {% block content %}
+            {% endblock %}
+
+
+            {%include 'qg/footer.html' %}
+          {% endblock body %}
+        </div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+{% extends 'qg/base_qg.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="cont">
+        <div class="row">
+            <div class="col-md-8 col-sm-12 text-center pt-4">
+              <div class="px-3 pb-2">
+                 <h1 class="py-4"> New Question</h1>
+                 <form method="post">{% csrf_token %}
+                    <input class="form-control border " type="text" id="text" name="text" placeholder="Enter text here to generate questions">
+                    <button class="form-control my-3" type="submit">Start</button>
+                     {% if not list_question%}
+                        <textarea class="form-control border"  style="color:#ccc">
+                            enter a correct sentence
+                        </textarea>
+                     {% else %}
+                        <textarea class="form-control border">
+                            {{list_question}}
+                        </textarea>
+                     {% endif %}
+                 </form>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center pt-4">
+                <div class="right">
+                    <p style=""></p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

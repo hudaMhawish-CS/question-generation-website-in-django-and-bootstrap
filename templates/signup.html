@@ -1,0 +1,37 @@
+{% extends 'qg/base_qg.html' %}
+
+
+{% block body %}
+
+    <div class="container text-center start">
+
+            <h1 class="text-center logo my-4">
+                <a href="{% url 'home_qg' %}" >Question Generation</a>
+            </h1>
+
+        <div class="login">
+            <div class="title">signup</div>
+
+            {% if form.non_field_errors %}
+                <div class="alert alert-danger" role="alerts">
+                {% for error in form.non_field_errors %}
+                    <p {% if forloop.last %} class="mb-0" {% endif %}>{{error}}</p>
+                {% endfor %}
+                </div>
+            {% endif %}
+            <form method="post" action="">{% csrf_token %}
+                {% for field in form %}
+                    <label class="label"> {{field.label}}</label>
+                    {{field}}
+                {% endfor %}
+                <button type="submit" class="form-button form-control my-4">Create New account</button>
+            </form>
+             <div class="container already text-center py-2 border-top">
+                <span>Already have an account? <a href="{% url 'login' %}" style="color:#3f8bf9">Log in</a></span>
+             </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+

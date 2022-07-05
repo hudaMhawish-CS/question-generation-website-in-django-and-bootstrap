@@ -1,0 +1,160 @@
+{% extends 'qg/base_qg.html' %}
+{% load static %}
+
+{% block content%}
+    <h1>Question Generation</h1>
+    <h3 class="border-bottom mt-5">Most implemented papers</h3>
+    <div class="paper-card mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="mt-4" alt="" src="{% static 'img/article/article2.png' %}"/>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="row">
+                       <div class="col-md-9">
+                            <h1 class="mt-4">Diverse Beam Search: Decoding Diverse Solutions from Neural Sequence Models</h1>
+                            <p style="padding-top:2px"><li class="bi-github"><a href="https://github.com/ashwinkalyan/dbs">
+                                ashwinkalyan/dbs
+                            </a> •7 Oct 2016
+                                </li>
+                            </p>
+                            <p style="color: #717171">We observe that our method consistently outperforms BS and previously proposed techniques for diverse decoding from neural sequence models.
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <div class="stars mt-4">
+                                <li class="bi-github"> 17</li>
+                            </div>
+                            <div class="paper">
+                                <li class="bi-newspaper"> Paper</li>
+                            </div>
+                            <div class="code">
+                                <li class="bi-github"> Code</li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="paper-card mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="mt-4" alt="" src="{% static 'img/article/article1.png' %}"/>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="row">
+                       <div class="col-md-9">
+                            <h1 class="mt-4">Unified Language Model Pre-training for Natural Language Understanding and Generation</h1>
+                            <p style="padding-top:2px"><li class="bi-github"><a href="https://github.com/ashwinkalyan/dbs">
+                                 microsoft/unilm
+                            </a> •NeurIPS 2019
+                                </li>
+                            </p>
+                            <p style="color: #717171">This paper presents a new Unified pre-trained Language Model (UniLM) that can be fine-tuned for both natural language understanding and generation tasks.
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <div class="stars mt-4">
+                                <li class="bi-github"> 8</li>
+                            </div>
+                            <div class="paper">
+                                <li class="bi-newspaper"> Paper</li>
+                            </div>
+                            <div class="code">
+                                <li class="bi-github"> Code</li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="paper-card mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="mt-4" alt="" src="{% static 'img/article/article3.png' %}"/>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="row">
+                       <div class="col-md-9">
+                            <h1 class="mt-4">Learning to Ask: Neural Question Generation for Reading Comprehension</h1>
+                            <p style="padding-top:2px"><li class="bi-github"><a href="https://github.com/ashwinkalyan/dbs">
+                                 xinyadu/nqg
+                            </a> •ACL 2017
+                                </li>
+                            </p>
+                            <p style="color: #717171">We study automatic question generation for sentences from text passages in reading comprehension.
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <div class="stars mt-4">
+                                <li class="bi-github"> 6</li>
+                            </div>
+                            <div class="paper">
+                                <li class="bi-newspaper"> Paper</li>
+                            </div>
+                            <div class="code">
+                                <li class="bi-github"> Code</li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div class="paper-card mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="mt-4" alt="" src="{% static 'img/article/article4.png' %}"/>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="row">
+                       <div class="col-md-9">
+                            <h1 class="mt-4">Machine Comprehension by Text-to-Text Neural Question Generation</h1>
+                            <p style="padding-top:2px"><li class="bi-github"><a href="https://github.com/ashwinkalyan/dbs">
+                                  bloomsburyai/question-generation
+                            </a> •NeurIPS 2015
+                                </li>
+                            </p>
+                            <p style="color: #717171">We propose a recurrent neural model that generates natural-language questions from documents, conditioned on answers.
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <div class="stars mt-4">
+                                <li class="bi-github"> 4</li>
+                            </div>
+                            <div class="paper">
+                                <li class="bi-newspaper"> Paper</li>
+                            </div>
+                            <div class="code">
+                                <li class="bi-github"> Code</li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+

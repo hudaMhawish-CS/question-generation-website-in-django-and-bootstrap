@@ -1,0 +1,389 @@
+
+/************************ Start Home page *************************/
+*{
+    transition: all 0.4s ease-in-out
+}
+.discussion {
+    padding-top: 50px
+}
+.discussion span {
+    font-weight: bold;
+}
+.discussion h5.bi-chat-dots {
+    color: #084298;
+}
+.discussion li {
+    color: #0d6efd;
+}
+
+.similar-ideas .row {
+    margin: 20px;
+    border-radius: 0.85rem;
+    box-shadow: 0px 0px 20px -8px #d0f4fb;
+}
+.similar-ideas .row:hover {
+    box-shadow: 0px 0px 2px 1px #03a1c1;
+}
+.similar-ideas .row h5 {
+    color: #03a1c1
+}
+.similar-ideas .row img {
+    margin: 20px;
+    margin-left: 0px;
+    box-shadow: 1px 1px 1px 1px #CCC
+}
+
+/************************ End Home page *************************/
+
+/************************ Start References page *************************/
+.paper-card {
+    margin-bottom: 50px;
+    padding: 10px;
+    padding-bottom: 0px;
+    min-height: 220px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 0px 42px -8px #EEE;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e8e8e8;
+}
+.paper-card:hover {
+    box-shadow: 0 0px 42px -8px #CCC;
+}
+.paper-card h1{
+    font-size: 1.4rem;
+}
+.paper-card li.bi-github,.paper-card a {
+    color: #717171;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none
+}
+
+.paper-card .stars {
+    background: #f9fafb;
+    width: 50px;
+    min-height: 30px;
+    border-radius: 4px;
+    border: 1px solid #EEE;
+    margin:auto;
+    margin-bottom: 30px
+}
+.paper-card .stars li {
+    color: #000;
+    font-size: 17px
+}
+.paper-card .paper, .paper-card .code{
+    background: #068ca7;
+    width: 100px;
+    min-height: 40px;
+    border-radius: 4px;
+    margin:auto;
+    margin-bottom: 15px;
+    padding-top: 5px
+}
+.paper-card .code{
+    background: #0dcaf0;
+}
+.paper-card .paper li, .paper-card .code li {
+    color: #000;
+    font-size: 17px;
+    list-style: none;
+}
+/************************ End References page *************************/
+
+/************************ Start FAQ page *************************/
+.faq .header {
+    background: #7fcdc1;
+}
+.faq .header h1{
+    color: #fff;
+}
+
+.faq .card-left, .card-right {
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin-bottom: 10px;
+}
+
+.faq .card-left .list-group .list-group-item i , .card-right .list-group .list-group-item i{
+    margin-right: 15px;
+}
+
+.faq .card-left .list-group .list-group-item .span-list {
+    background: #eaecec;
+    border-radius: 45%;
+    margin-left: 15px;
+    color: #324148;
+    width: 30px;
+    text-align: center
+}
+
+.faq .card-right .list-group .list-group-item{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    padding-left: 40px
+}
+.faq .card-right li.list-group-item.padding.d-flex {
+    color: #0dcaf0;
+}
+.faq .Widget-left {
+    padding: 20px;
+    margin-bottom: 0
+}
+.faq .Widget-left .text-thin, .contact-us .text-thin {
+    font-weight: 400;
+}
+.faq .Widget-left .ul-left {
+    list-style: none;
+    padding-left: 0px;
+}
+.faq .Widget-left .ul-left li{
+    padding: 10px;
+    transition: all 0s;
+}
+.faq .Widget-left .ul-left li:hover, .Widget-left .ul-left li:focus{
+    background: #dadbdd;
+}
+.faq .contact-us {
+    padding: 20px;
+    margin-bottom: 10px
+}
+.faq .general a {
+    text-decoration: none
+}
+.faq .general a:hover {
+    text-decoration: underline;
+    color: #043c74
+}
+.faq .general p {
+    padding: 10px;
+}
+/************************ End FAQ page *************************/
+
+/************************ Start Contact page *************************/
+/*.contact {
+    padding: 40px;
+    background-color: #f8f9fa;
+}*/
+.contact .panel {
+    background: #fff;
+    margin-bottom: 30px;
+    border: 2px solid #CCC;
+    box-shadow: 0px 0px 17px -7px #ccc;
+}
+.contact .panel .form-control{
+    border: 1px solid #CCC;
+    box-shadow: none;
+    border-radius: 4px;
+}
+.contact .panel .form-control:hover {
+    box-shadow: 0px 0px 6px -1px #0dcaf0;
+    border: 1px solid #0dcaf0;
+}
+.contact .panel .btn-primary{
+    background-color: #3bc0c3;
+    border: 1px solid #3bc0c3;
+}
+
+.contact .contact-user {
+    border: 2px solid #CCC;
+}
+
+.contact .contact-list .pull-left img {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+}
+
+.contact .contact-list .pull-left h6 {
+    padding-top: 10px;
+}
+.contact .contact-list .pull-right a{
+  float: right;
+  margin: 2px;
+  line-height: 80%;
+}
+.contact .social-links {
+    display: inline-flex;
+    text-align: center;
+
+}
+.contact .social-links li a{
+    background: #EFF0F4;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    color: #7A7676;
+    margin-right: 5px;
+    vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+/************************ End Contact page *************************/
+
+/************************ Start users page *************************/
+.users {
+    padding-top: 20px;
+    background:#f8f9fa;
+}
+.badge-btn {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #6c757d;d-flex
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+/************************ End users page *************************/
+
+/************************ Start login page *************************/
+
+.start {
+    background: #fff;
+}
+
+.start .logo a {
+    text-decoration: none;
+    color: rgba(0,0,.9);
+    text-shadow: 2px 2px 6px #cbced1,-2px -2px 6px #3f8bf9;
+
+}
+.start .login {
+    background: #ecf0f3;
+    width: 70%;
+    border-radius: 20px;
+    padding: 40px;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    box-shadow:  14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.start .login .title {
+    color: #3f8bf9;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 15px;
+    border-radius: 50px;
+    box-shadow:  3px 3px 10px #3f8bf9, -7px -7px 10px white;
+    text-transform: uppercase;
+    font-family: 'Peralta', cursive
+}
+.start .login .title:hover {
+    box-shadow:  3px 3px 10px white, -7px -7px 10px f8bf9;
+}
+
+.start .login .form-group {
+    margin: 0 0 25px 0;
+}
+/* .start .login .form-group label */
+.start .login .label {
+    text-transform: uppercase;
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+/* .start .login .form-group .form-control */
+.start .login .input{
+    color: #333;
+    background: #ecf0f3;
+    font-size: 15px;
+    height: 50px;
+    padding: 20px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1,inset -6px -6px 6px #fff;
+}
+.start .login .input:focus {
+    box-shadow: inset 6px 6px 6px #cbced1,inset -3px -3px 10px #3f8bf9;
+    outline: none
+}
+.start .login .input::placeholder {
+    color: #808080;
+    font-size: 14px;
+}
+.start .login .form-button {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #3f8bf9;
+    padding: 12px 15px 11px;
+    border-radius: 20px;
+    border: none;
+    box-shadow:   6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: all 0.5s ease-in-out;
+}
+.start .login .form-button:hover, .start .login .form-button:focus {
+    color: #fff;
+    letter-spacing: 3px;
+    box-shadow: none;
+    outline: none;
+}
+
+/************************ End login page *************************/
+
+
+
+/************************ Start start page *************************/
+
+.cont {
+    overflow: hidden;
+    position: relative;
+    margin: auto auto;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0px 42px -1px #EEE;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e8e8e8;
+
+}
+.cont:hover {
+    box-shadow: 0 0px 42px -1px #CCC;
+}
+
+.cont input, .cont textarea {
+    outline: none;
+    background: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    height: 100px;
+}
+.cont button {
+    background: #EEE;
+    width: 100px;
+    border-radius: 5px;
+    margin: auto;
+    border: 3px solid #000;
+    transition: all 0.4s ease-in-out
+}
+.cont button:hover {
+    border: none;
+    box-shadow: 0 0px 10px 2px #CCC;
+}
+.cont .right{
+    background-image: url('/static/img/question.png');
+    color: white;
+    height: 100%;
+    background-size: cover;
+}
+.cont input::placeholder {
+    color: #808080;
+    font-size: 14px;
+}
+/************************ End start page *************************/

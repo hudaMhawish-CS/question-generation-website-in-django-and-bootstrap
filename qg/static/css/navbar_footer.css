@@ -1,0 +1,96 @@
+/* Start navbar */
+
+.header .navBack{
+    background: #fff;
+}
+.header .navBack h1{
+    color: #00F;
+}
+.header .form-control {
+  color: #212529;
+  border-radius: 0.85rem;
+  box-shadow: 0px 0px 1px 2px #EEE
+}
+
+.header .navbar.nav {
+    background-color: #f8f9fa;
+    margin: 60px 0px 0px 0px;
+    padding: 0;
+    border-radius: 4px;
+    /*box-shadow: 1px 1px 1px 1px #EEE;*/
+    transition: all 0.5s ease-in-out
+}
+.header .navbar.nav:hover {
+    box-shadow: 0.2px 0.5px 1px 0.1px #00f;
+}
+
+
+.header i.bi-search {
+    font-size: 20px;
+    font-weight: bold;
+}
+.header i.bi-house-door-fill {
+    font-size: 26px;
+    font-weight: bold;
+}
+.header .nav .nav-link {
+    color: #040404;
+    transition: all 0.5s ease-in-out
+}
+.header .nav .nav-link:hover, nav .nav-link:focus {
+    color: #00f;
+    box-shadow: 0px 1px 0px 0px #00f;
+}
+.header .nav .nav-link.active {
+    color: #00f;
+}
+
+a.btn.btn-outline-secondary.login-button,a.btn.btn-primary.login-button {
+    font-weight: bold;
+    width: 75px;
+    height: 37px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #3f8bf9, -4px -4px 4px white;
+    text-align: center;
+    transition: all 0.4s ease-in-out
+}
+a.btn.btn-outline-secondary.login-button:hover,a.btn.btn-primary.login-button:hover {
+    box-shadow: 2px 2px 4px white, -1px -1px 4px #3f8bf9;
+}
+/* end navbar */
+
+/**************/
+
+/* Start footer */
+.footer {
+    margin-top: 40px
+}
+.footer li {
+  /* float: left;*/
+   display: inline-block;
+   margin: 10px;
+   margin-bottom: 0;
+   opacity: 0.7;
+   filter: alpha(opacity=70);
+   -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+}
+.footer li:hover {
+   opacity: 1;
+}
+.footer img {
+    width: 45px;
+    height: 45px;
+    box-shadow:  0px 0px 1px 2px #2873e1;
+    border-radius: 50%
+}
+
+.navbar.border-bottom, .nav.border-bottom{
+  border-bottom: 1px solid #044bb3 !important;
+}
+.text-muted {
+  color: #044bb3 !important;
+}
+/* end footer */
